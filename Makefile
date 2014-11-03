@@ -4,7 +4,7 @@ paper:
 	pdflatex monoallelic
 
 readme:
-	pandoc -s monoallelic.tex -o README.md
+	pandoc -f latex -t markdown -o README.md -s monoallelic.tex
 
 clean:
 	rm -f monoallelic.{aux,bbl,blg,log,pdf}
