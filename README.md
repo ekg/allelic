@@ -1,1 +1,1 @@
-[A summary of considerations when moving from a site-wise, multiallelic model for the compression and sharing of genomic data to an allele-based one.](https://github.com/ekg/monoallelic/blob/master/monoallelic.pdf)
+[A summary of considerations when moving from a site-wise, multiallelic model for the compression and sharing of genomic data to an allele-based one.](https://github.com/ekg/monoallelic/blob/master/monoallelic.pdf?raw=true)
