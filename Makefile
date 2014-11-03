@@ -1,7 +1,10 @@
-all: paper
+all: paper readme
 
 paper:
 	pdflatex monoallelic
 
+readme:
+	pandoc -s monoallelic.tex -o README.md
+
 clean:
-	rm -f main.{aux,bbl,blg,log,pdf}
+	rm -f monoallelic.{aux,bbl,blg,log,pdf}
