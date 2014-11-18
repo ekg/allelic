@@ -1,7 +1,7 @@
 all: paper
 
 paper:
-	pdflatex monoallelic
+	pdflatex allelic
 
 clean:
-	rm -f monoallelic.{aux,bbl,blg,log,pdf}
+	rm -f allelic.{aux,bbl,blg,log,pdf}
